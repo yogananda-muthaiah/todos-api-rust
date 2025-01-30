@@ -1,0 +1,19 @@
+# Ignore the target directory (contains build artifacts)
+/target/
+
+# Ignore Cargo.lock for libraries (not for binaries)
+Cargo.lock
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore environment-specific files
+.env
+.env.local
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore debug and release builds
+**/*.rs.bk
